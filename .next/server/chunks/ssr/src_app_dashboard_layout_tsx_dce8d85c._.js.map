@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/user/studio/src/app/dashboard/layout.tsx"],"sourcesContent":["\nimport React from 'react';\n\nexport default function DashboardLayout({\n  children,\n}: {\n  children: React.ReactNode;\n}) {\n  return (\n    <div className=\"flex flex-col min-h-screen\">\n      {/* \n        A common header or sidebar for all dashboard pages can be placed here.\n        For now, the DashboardHeader is part of dashboard/page.tsx itself.\n        This layout can be enhanced later.\n      */}\n      {children}\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;AAGe,SAAS,gBAAgB,EACtC,QAAQ,EAGT;IACC,qBACE,8OAAC;QAAI,WAAU;kBAMZ;;;;;;AAGP","debugId":null}}]
+}
